@@ -31,7 +31,7 @@ function SuggestData() {
   }, []);
 
   const useData = () => {
-    navigate("/", { state: data });
+    navigate("/attack", { state: data });
   };
 
   return (
