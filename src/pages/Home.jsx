@@ -98,21 +98,46 @@ function Home() {
         </div>
       </div>
 
-      {/* FOOTER */}
-      <footer className="bg-gray-900 border-t border-gray-800 py-8 text-center">
+    {/* FOOTER */}
+<footer className="bg-gray-900 border-t border-gray-800 py-6">
+  <div className="max-w-6xl mx-auto px-6 
+                  flex flex-col sm:flex-row 
+                  items-center justify-between gap-4 text-sm">
 
-        <p className="text-gray-400 text-sm mb-3">
-          Hybrid Quantum RSA Cryptanalysis Simulator Develop By Anshuman
-        </p>
+    <p className="text-gray-400 text-center sm:text-left">
+      Hybrid Quantum RSA Cryptanalysis Simulator · Developed by Anshuman
+    </p>
 
-        <a
-          href="mailto:anshumansarkar600@gmail.com"
-          className="text-blue-400 hover:text-blue-500 transition text-sm"
-        >
-          Send Feedback
-        </a>
+    <div className="flex items-center gap-6">
 
-      </footer>
+      <a
+        href="mailto:anshumansarkar600@gmail.com"
+        className="text-gray-400 hover:text-white transition"
+      >
+        Send Feedback
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/anshuman-sarkar-906994307/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-gray-400 hover:text-blue-400 transition"
+      >
+        LinkedIn
+      </a>
+
+      <a
+        href="https://x.com/sarkar97711"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-gray-400 hover:text-sky-400 transition"
+      >
+        Twitter
+      </a>
+
+    </div>
+  </div>
+</footer>
 
     </div>
   )
